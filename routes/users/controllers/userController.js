@@ -1,7 +1,7 @@
 const User = require('../models/User');
 const passport = require('passport');
 const { validationResult } = require('express-validator');
-const faker = require('faker');
+
 
 module.exports = {
     getLogin: (req, res) => {
